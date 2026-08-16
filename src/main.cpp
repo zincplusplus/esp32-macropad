@@ -9,7 +9,7 @@ USBHIDConsumerControl consumer;
 
 // ---- wire your buttons/encoder to these GPIOs, then edit to match ----
 const uint8_t buttonPins[] = {4, 5, 6, 7, 15};
-const char *buttonWords[] = {"Str0ng", "dev3l", "pa$$", "apple"}; // text typed once per button press (buttons 0-3)
+const char *buttonWords[] = {"complete", "device", "meal", "location"}; // text typed once per button press (buttons 0-3)
 // button 4 (GPIO15) sends the Enter key instead, see pollButtons()
 
 const uint8_t encA = 17, encB = 16, encSw = 18; // S2, S1, Key (swapped to reverse volume direction)
